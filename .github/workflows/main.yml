@@ -1,5 +1,4 @@
 name: 疫情防控推送
-
 on:
     workflow_dispatch:
     schedule:
