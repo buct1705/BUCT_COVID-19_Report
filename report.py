@@ -80,7 +80,7 @@ if __name__ == '__main__':
         },
     }
 
-    with open(filename, 'r', encoding='gbk') as f:
+    with open(filename, 'r', encoding='gb2312') as f:
         reader = csv.reader(f)
         reader.__next__()
         for row in reader:
